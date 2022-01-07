@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  /* App colors */
+  --color-primary: rgb(24, 119, 242);
+  --color-secondary: rgb(223, 230, 236);
+  --color-tertiary: rgb(39, 184, 26);
+  --color-danger: rgb(214, 35, 35);
+  --color-light: rgb(255, 255, 255);
+  --color-dark: rgb(0, 0, 0);
+
+  /* App fonts */
+  --font-primary: 'Roboto', sans-serif;
+  --font-secondary: sans-serif;
+
+  /* corners rounded */
+  --rounded-sm: 2px;
+  --rounded-md: 4px;
+  --rounded-lg: 8px;
+
+}
+
+body {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 100vh; 
+  background-color: var(--color-secondary);
+  font-family: sans-serif;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background-color: transparent;
+  font-family: 'Roboto', sans-serif;
+}
