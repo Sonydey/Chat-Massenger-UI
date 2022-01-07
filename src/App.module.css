@@ -1,0 +1,21 @@
+.contentArea {
+    width: 100%;
+    min-width: 320px;
+    max-width: 768px;
+    min-height: 100vh;
+    background-color: var(--color-light);
+    margin: 0 auto;
+    padding: 25px;
+}
+.createPostBtn {
+    padding: 15px;
+    background-color: var(--color-primary);
+    color: var(--color-light);
+    border-radius: var(--rounded-md);
+    font-family: var(--font-primary);
+    font-size: 1.2rem;
+}
+.heading {
+    font-family: var(--font-primary);
+    margin: 25px 0;
+}

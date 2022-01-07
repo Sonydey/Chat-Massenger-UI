@@ -1,0 +1,42 @@
+.post {
+    border-radius: var(--rounded-lg);
+    box-shadow: 0 5px 20px -8px rgba(0, 0, 0, 0.55);
+    padding: 25px 0 25px 0;
+    margin-bottom: 30px;
+}
+.heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin: 0 25px;
+}
+.profileImage {
+    border-radius: 50%;
+}
+.profileName {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.intro {
+    margin: 10px 20px 30px;
+    padding-left: 10em;
+   }
+.content {
+    margin: 15px 25px 25px 25px;
+}
+.msg {
+    margin: 25px;
+    font-size: 1rem;
+}
+.gifContainer {
+    margin: 0 25px;
+}
+.gifContainer > div {
+    margin: 6px 0;
+}
